@@ -1,0 +1,53 @@
+
+[
+    {
+        "factId": 1,
+        "title": "Clefairy Almost Ruled the Pokémon World",
+        "fact": "Before Pikachu became the icon, Clefairy was the top contender for the mascot role. They even considered Poliwhirl before Pikachu’s charm and universal appeal won them over."
+    },
+    {
+        "factId": 2,
+        "title": "The Real Meaning of Pokémon’s Name",
+        "fact": "The name Pokémon is a cute shortening of 'Pocket Monsters' (ポケットモンスター), but only real pros know that it wasn’t just a random catchy name!"
+    },
+    {
+        "factId": 3,
+        "title": "Tajiri's Bug-Fueled Genius",
+        "fact": "Satoshi Tajiri, the creator of Pokémon, drew inspiration from his childhood obsession with catching insects. So next time you're hunting for bugs in the wild, think Pokémon!"
+    },
+    {
+        "factId": 4,
+        "title": "Pikachu: Legal Tender Superstar",
+        "fact": "Pikachu isn’t just a famous Pokémon; he’s also been featured on legal tender currency in Japan. That’s right—Pikachu’s a global superstar, even in banking!"
+    },
+    {
+        "factId": 5,
+        "title": "Pikachu: Not Your Average Mouse",
+        "fact": "Surprise! Pikachu was actually inspired by a squirrel, not a mouse. So next time you see one running around, maybe it’s secretly a Pikachu."
+    },
+    {
+        "factId": 6,
+        "title": "Pokémon Manhole Covers? Yes, Really!",
+        "fact": "In Japan, you can find Pokémon-themed manhole covers (Pokéfuta), each featuring different Pokémon designs. It’s a quirky piece of Pokémon history you might just step on!"
+    },
+    {
+        "factId": 7,
+        "title": "Slowbro: The Ultimate Devolution",
+        "fact": "Did you know Slowbro can potentially devolve back to a Slowpoke? It’s a rare occurrence, but only real fans know about this strange and funky trait."
+    },
+    {
+        "factId": 8,
+        "title": "Pokémon Go 1 Billion Downloads Milestone",
+        "fact": "Pokémon Go didn’t just take over the world—it’s been downloaded over 1 billion times! It’s the game that got everyone up and about, looking for Pokémon in the real world."
+    },
+    {
+        "factId": 9,
+        "title": "1,000+ Pokémon: The Ever-Expanding Universe",
+        "fact": "With over 1,000 species in the Pokémon world, you’d need multiple lifetimes just to catch ‘em all! And the best part? The new Pokémon keep coming."
+    },
+    {
+        "factId": 10,
+        "title": "Rhydon: The First Ever Pokémon Design",
+        "fact": "Rhydon isn’t just another Rock/Ground-type—he was the very first Pokémon ever designed! That’s right, not even Pikachu had his spot in the drawing board first."
+    }
+]
