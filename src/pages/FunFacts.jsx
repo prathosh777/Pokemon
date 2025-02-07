@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import dataObject from "../api/trainers.json";
 import RegionCard from "../components/RegionCard";
 import Carousel from "../components/Carousel";
-
+import regions from "../assets/regions.png";  
+import funfacts from "../assets/funfacts.png";
 const FunFacts = () => {
   const [data, setData] = useState([]);
 
@@ -14,10 +15,10 @@ const FunFacts = () => {
 
   return (
     <div className="my-5 mb-5 ">
-      <img src="/src/assets/Regions.png" className="md:w-[15%] sm:w-[25%] w-[50%] mx-auto" alt="" />
+      <img src={regions} className="md:w-[15%] sm:w-[25%] w-[50%] mx-auto" alt="" />
 
       <RegionCard regionName={data} />
-      <img src="/src/assets/Fun-Facts.png" className="md:w-[18%] py-5 sm:w-[35%] w-[50%] mx-auto" alt="" />
+      <img src={funfacts} className="md:w-[18%] py-5 sm:w-[35%] w-[50%] mx-auto" alt="" />
       <Carousel />
     </div>
   );

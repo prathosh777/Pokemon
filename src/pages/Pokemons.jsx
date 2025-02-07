@@ -3,7 +3,8 @@ import PokemonCard from "../components/PokemonCard";
 import SearchedPokemonCard from "../components/SearchedPokemonCard";
 import Loading from "../components/Loading";
 import Error from "../components/Error";
-
+import search from "../assets/search.png";
+import next from "../assets/next.png";
 const Pokemons = () => {
   const [pokemon, setPokemon] = useState([]);
   const [searchedPokemon, setSearchedPokemon] = useState("");
@@ -74,7 +75,7 @@ const Pokemons = () => {
               onClick={searchPokemon}
               className=" bg-red-600 hover:bg-white  px-5 py-2 md:mx-0 md:w-[150px] w-[90px] mx-auto rounded-full text-white hover:text-red-600 hover:shadow-md hover:shadow-red-600"
             >
-              <img src="/src/assets/search.png" alt="" className="md:w-[100px w-[100%]"/>
+              <img src={search} alt="Search" className="md:w-[100px w-[100%]"/>
             </button>
           </div>
 
@@ -89,7 +90,7 @@ const Pokemons = () => {
               className="bg-red-600  md:w-[150px] w-[90px] mx-auto hover:bg-white px-5 py-2 rounded-full block mt-28 mb-5 text-white hover:text-red-600 hover:shadow-md hover:shadow-red-600"
               onClick={nextPage}
             >
-              <img src="/src/assets/next.png" alt="" className="w-[100px]" />
+              <img src={next} alt="Next" className="w-[100px]" />
             </button>
           )}
         </>
