@@ -1,13 +1,12 @@
-
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import pokemonTitle from "../assets/pokemon.png";
 import ThemeController from "./ThemeController";
 import closedball from "../assets/pokeball-close.png";
 import openball from "../assets/pokeball-open.png";
-import search from "../assets/search.png";
-import evolution from "../assets/evolution.png";
-import regions from "../assets/regions.png";
+import search from "../assets/search.webp";
+import evolution from "../assets/evolution.webp";
+import regions from "../assets/regions.webp";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,12 +23,7 @@ const Navbar = () => {
       <div className="navbar  px-2 md:px-8 bg-white rounded-full">
         <div className="flex-1">
           <div className="dropdown dropdown-end">
-            <div
-              tabIndex={0}
-              role="button"
-              className=""
-              onClick={handleToggle}
-            >
+            <div tabIndex={0} role="button" className="" onClick={handleToggle}>
               <div className="rounded-full cursor-pointer">
                 <img
                   src={isOpen ? openball : closedball}
@@ -45,19 +39,29 @@ const Navbar = () => {
               >
                 <li>
                   <Link to="/" onClick={handleLinkClick}>
-                   <img src={evolution} className="w-[80%] font-bold" alt="Evolution" />
+                    <img
+                      src={evolution}
+                      className="w-[80%] font-bold"
+                      alt="Evolution"
+                    />
                   </Link>
                 </li>
                 <li>
                   <Link to="/pokemons" onClick={handleLinkClick}>
-                   <img src={search} className="w-2/3 font-bold" alt="Search" />
-                    
+                    <img
+                      src={search}
+                      className="w-2/3 font-bold"
+                      alt="Search"
+                    />
                   </Link>
                 </li>
                 <li>
                   <Link to="/funfacts" onClick={handleLinkClick}>
-                  <img src={regions} className="w-2/3 font-bold" alt="Regions" />
-
+                    <img
+                      src={regions}
+                      className="w-2/3 font-bold"
+                      alt="Regions"
+                    />
                   </Link>
                 </li>
               </ul>
