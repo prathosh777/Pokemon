@@ -3,7 +3,7 @@ import PokemonCard from "../components/PokemonCard";
 import SearchedPokemonCard from "../components/SearchedPokemonCard";
 import Loading from "../components/Loading";
 import Error from "../components/Error";
-import search from "../assets/search.png";
+import searchimg from "../assets/search.png";
 import next from "../assets/next.png";
 const Pokemons = () => {
   const [pokemon, setPokemon] = useState([]);
@@ -75,7 +75,7 @@ const Pokemons = () => {
               onClick={searchPokemon}
               className=" bg-red-600 hover:bg-white  px-5 py-2 md:mx-0 md:w-[150px] w-[90px] mx-auto rounded-full text-white hover:text-red-600 hover:shadow-md hover:shadow-red-600"
             >
-              <img src={search} alt="Search" className="md:w-[100px w-[100%]"/>
+              <img src={searchimg} alt="Search" className="md:w-[100px w-[100%]"/>
             </button>
           </div>
 
