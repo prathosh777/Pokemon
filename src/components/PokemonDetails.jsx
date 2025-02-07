@@ -17,7 +17,6 @@ const PokemonDetails = ({ pokemon }) => {
           <h3 className="font-bold text-3xl uppercase h-1/5 mb-5">{pokemon.name}</h3>
           <div className="flex gap-2" style={{height:'70%'}}>
             <div className="bg-zinc-700 text-zinc-100 md:w-1/5 w-[75px] rounded-xl py-7">
-              {/* arrange the p tags to appear middle */}
               <p className="font-bold text-sm md:text-lg">Height</p>
               <p className="md:text-base text-xs">{pokemon.height}0 cm</p>
             </div>

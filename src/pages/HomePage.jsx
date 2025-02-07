@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 const HomePage = () => {
   return (
     <div >
-      {/* <img src={pokemonTitle} alt="pokemon" className="w-1/3 mx-auto " /> */}
       <img
         src={PokeTeam}
         alt="pokemon tean"
@@ -25,7 +24,6 @@ const HomePage = () => {
           }}
           className="bg-[linear-gradient(to_left,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-medium lg:font-bold md:font-bold"
         >
-          {/* Evolution of Pokemon */}
           <img src="/src/assets/Evolution.gif" alt="" />
         </motion.span>
       </div>

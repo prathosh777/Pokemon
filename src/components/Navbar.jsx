@@ -43,18 +43,18 @@ const Navbar = () => {
               >
                 <li>
                   <Link to="/" onClick={handleLinkClick}>
-                   <img src="/src/assets/Evolution.png" className="w-[80%]" alt="" />
+                   <img src="/src/assets/evolution.png" className="w-[80%]" alt="" />
                   </Link>
                 </li>
                 <li>
                   <Link to="/pokemons" onClick={handleLinkClick}>
-                   <img src="/src/assets/Search.png" className="w-2/3" alt="" />
+                   <img src="/src/assets/search.png" className="w-2/3" alt="" />
                     
                   </Link>
                 </li>
                 <li>
                   <Link to="/funfacts" onClick={handleLinkClick}>
-                  <img src="/src/assets/Regions.png" className="w-2/3" alt="" />
+                  <img src="/src/assets/regions.png" className="w-2/3" alt="" />
 
                   </Link>
                 </li>

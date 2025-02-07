@@ -17,7 +17,6 @@ const FunFacts = () => {
       <img src="/src/assets/Regions.png" className="md:w-[15%] sm:w-[25%] w-[50%] mx-auto" alt="" />
 
       <RegionCard regionName={data} />
-      {/* <h1 className="text-5xl text-center my-9">Fun Facts</h1> */}
       <img src="/src/assets/Fun-Facts.png" className="md:w-[18%] py-5 sm:w-[35%] w-[50%] mx-auto" alt="" />
       <Carousel />
     </div>

@@ -17,10 +17,8 @@ const RegionCard = ({ regionName }) => {
               </figure>
               <div className="card-body  ">
                 <h2 className=" text-shadow-border text-center  font-bold text-zinc-900">{regName}</h2>
-                {/* <h2 className="card-title text-center">{regName}</h2> */}
+              
 
-
-                {/* <p>add some details about region</p> */}
                 <div className="card-actions justify-center">
                   <PokemonTrainers
                     trainerData={reg[regName]}
