@@ -39,22 +39,22 @@ const Navbar = () => {
             {isOpen && (
               <ul
                 tabIndex={0}
-                className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 ml-2 relative left-1 w-52 p-2 shadow"
+                className="menu menu-sm dropdown-content bg-base-100 rounded-box border-2 border-yellow-300 z-[1] mt-3 ml-2 relative left-1 w-52 p-2 shadow"
               >
                 <li>
                   <Link to="/" onClick={handleLinkClick}>
-                   <img src="/src/assets/evolution.png" className="w-[80%]" alt="" />
+                   <img src="/src/assets/evolution.png" className="w-[80%] font-bold" alt="Evolution" />
                   </Link>
                 </li>
                 <li>
                   <Link to="/pokemons" onClick={handleLinkClick}>
-                   <img src="/src/assets/search.png" className="w-2/3" alt="" />
+                   <img src="/src/assets/search.png" className="w-2/3 font-bold" alt="Search" />
                     
                   </Link>
                 </li>
                 <li>
                   <Link to="/funfacts" onClick={handleLinkClick}>
-                  <img src="/src/assets/regions.png" className="w-2/3" alt="" />
+                  <img src="/src/assets/regions.png" className="w-2/3 font-bold" alt="Regions" />
 
                   </Link>
                 </li>
