@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import dataObject from "../api/trainers.json";
 import RegionCard from "../components/RegionCard";
 import Carousel from "../components/Carousel";
-import regions from "../assets/regions.webp";
+import regionsimg from "../assets/regions.webp";
 import funfacts from "../assets/Fun-Facts.webp";
 const FunFacts = () => {
   const [data, setData] = useState([]);
@@ -16,7 +16,7 @@ const FunFacts = () => {
   return (
     <div className="my-5 mb-5 ">
       <img
-        src={regions}
+        src={regionsimg}
         className="md:w-[15%] sm:w-[25%] w-[50%] mx-auto"
         alt=""
       />

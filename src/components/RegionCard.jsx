@@ -1,6 +1,6 @@
 import PokemonTrainers from "./PokemonTrainers";
 import pokeBall from "../assets/pokeball.png";
-
+import card from '../assets/card1.png'
 const RegionCard = ({ regionName }) => {
   return (
     <div className="flex w-90 flex-wrap  justify-center gap-20">
@@ -10,7 +10,7 @@ const RegionCard = ({ regionName }) => {
             <div className="card image-full w-63  ">
               <figure>
                 <img
-                  src="/src/assets/card1.png"
+                  src={card}
                   alt="Region images"
                   className="italic "
                 />

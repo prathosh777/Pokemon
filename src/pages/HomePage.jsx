@@ -1,8 +1,8 @@
-import pokemonTitle from "../assets/pokemon.png";
+// import pokemonTitle from "../assets/pokemon.png";
 import Timeline from "../components/Timeline";
 import PokeTeam from "../assets/pokeTeam.jpg";
 import { motion } from "framer-motion";
-
+import evolution from "../assets/Evolution.gif";
 const HomePage = () => {
   return (
     <div >
@@ -24,7 +24,7 @@ const HomePage = () => {
           }}
           className="bg-[linear-gradient(to_left,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF,#DD7DDF,#E1CD86,#BBCB92,#71C2EF,#3BFFFF)] [background-size:200%] text-transparent bg-clip-text font-medium lg:font-bold md:font-bold"
         >
-          <img src="/src/assets/Evolution.gif" alt="" />
+          <img src={evolution} alt="" />
         </motion.span>
       </div>
       <Timeline />
