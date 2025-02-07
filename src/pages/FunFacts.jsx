@@ -3,7 +3,7 @@ import dataObject from "../api/trainers.json";
 import RegionCard from "../components/RegionCard";
 import Carousel from "../components/Carousel";
 import regions from "../assets/regions.png";  
-import funfacts from "../assets/funfacts.png";
+import funfacts from "../assets/Fun-Facts.png";
 const FunFacts = () => {
   const [data, setData] = useState([]);
 
